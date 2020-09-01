@@ -11,7 +11,7 @@ function getData(){
 			
 			for (let index=0; index<1; index++) {
 				div.innerHTML=`
-				<div class="col-3 card mx-auto border mt-4">
+				<div class=" card col-lg-3 col-auto mx-lg-auto mx-sm-2 mx-md-2 border mx-auto mt-4">
   					<div class="card-body">
 					    <p class="card-title">ID: ${data[con-1].id}</p>
 					    <p class="card-title">Name: ${data[con-1].name}</p>
